@@ -264,6 +264,15 @@ footer a:visited {
     main {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    article {
+        width: 580px;
+    }
+
+    .check-item {
+        margin: 14px 0;
     }
     
     .check-item p,
@@ -303,6 +312,10 @@ footer a:visited {
 
     .info::before {
         font-size: 27.09px;
+        margin-right: 14px;
+    }
+
+    input[type="checkbox"] {
         margin-right: 14px;
     }
 }
